@@ -22,13 +22,15 @@ body{
 }
 
 h1{
-    font-size: 25px; 
+    font-size: 25px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
 
 h3{
     margin: 15px;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .porfile{
