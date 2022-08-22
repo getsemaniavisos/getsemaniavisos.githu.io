@@ -1,0 +1,37 @@
+*{
+    margin: 0; padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: rgb(50,123,186);
+    background: linear-gradient(180deg, rgba(50,123,186,1) 0%, rgba(221,230,247,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
+.logo{
+    margin: 20px;
+    width: 180px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 0 0px 30px rgb(75, 73, 73);
+}
+
+h1{
+    font-size: 25px; 
+}
+
+h3{
+    margin: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.porfile{
+    text-align: center;
+    margin-top: 20px;
+}
