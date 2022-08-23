@@ -23,14 +23,16 @@ body{
 
 h1{
     font-size: 30px; 
-    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 h3{
     margin: 15px;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
-    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
     margin-bottom: 40px;
 }
 
@@ -96,9 +98,7 @@ footer{
     font-size: 14px;
     line-height:100px;
     text-align: center;    
-    margin-top: 100px;
+    margin-top: 50px;
     color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow:black 0.1em 0.1em 0.2em;
 } 
-
-
