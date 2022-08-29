@@ -8,8 +8,7 @@ html, body{
 
 body{
     background: rgb(12,25,42);
-    background: linear-gradient(180deg, rgba(12,25,42,1) 0%, rgba(45,75,115,1) 60%, rgba(12,25,42,1) 100%);
-    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(180deg, rgba(12,25,42,1) 0%, rgba(45,75,115,1) 60%, rgba(12,25,42,1) 100%);font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;   
 }
@@ -52,9 +51,6 @@ h3{
 .social img{
     width: 30px;
     border-radius: 10px;
-    /*
-    box-shadow: 0 0 10px  rgb(255, 255, 255);
-    */
 }
 /*=== DEFINIÇÕES DO VERSÍCULO ALEATÓRIO ======*/
 .corpo{
@@ -151,8 +147,8 @@ table td{
     width: 50%;
     padding: 5px;
 }
- 
-table tr:nth-child(even) /* CSS3 */ {
+
+table tr:nth-child(even){
     background: #dbe6ff;
 }
 
@@ -162,4 +158,35 @@ table tr:nth-child(even) /* CSS3 */ {
 
 .local{
     text-align: left;
+}
+
+/*=== LINHAS TABELA ESCALA LOUVOR =========*/
+/* linhas pares (even) */
+.tabela1 tbody tr:nth-child(even) {
+    background-color: #dbe6ff;
+}
+/* linhas ímpares (odd) */
+.tabela1 tbody tr:nth-child(odd) {
+    background-color: #dbe6ff;
+}
+
+/* linhas pares (even) */
+.tabela2 tbody tr:nth-child(even) {
+    background-color: #fceaf3;
+}
+/* linhas ímpares (odd) */
+.tabela2 tbody tr:nth-child(odd) {
+    background-color: #fceaf3;
+}
+/*==========================================================*/
+
+.contato{
+    margin: 15px;
+    
+    /*
+    font-family: 'Roboto', sans-serif;
+    */
+    font-size: 17px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
