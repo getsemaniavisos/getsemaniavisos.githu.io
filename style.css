@@ -51,7 +51,7 @@ table {
 /*===================================================*/
 
 body{
-    background-image: url(..img/B07.jpg);
+    background-image: url(../img/B07.jpg);
     background-repeat:round;
     font-family: 'Mulish', sans-serif;
     color: white;
