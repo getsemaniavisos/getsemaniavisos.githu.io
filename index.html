@@ -9,90 +9,106 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+
         
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="porfile">
-        <img src="img/logo.jpg" alt="Logo Igreja" class="logo">
-        <h1>Igreja Batista Getsemani</h1>
-        <h3>"Uma igreja gerando Vidas"</h3>
-    </div>
+    <header>
+        <div class="porfile">
+            <img src="img/logo.jpg" alt="Logo Igreja" class="logo">
+            <h1>Igreja Batista Getsemani</h1>
+            <h3>"Uma igreja gerando Vidas"</h3>
+        </div>
+    </header>
 
-    <div class="social">
-        <li>
-            <a href="https://www.instagram.com/batista_getsemani_/" target="_blank">
-                <img src="img/insta.png" alt="Instagram">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.facebook.com/Igreja-Batista-Gets%C3%AAmani-468288077006932/" target="_blank">
-                <img src="img/facebook.png" alt="Facebook">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.youtube.com/watch?v=2FEMS7p4sXI&list=PLZ0QjvqdxU3Fs0lqCj_r0s6VrF5D0MneM" target="_blank">
-                <img src="img/youtube2.png" alt="YouTube">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.bibliaonline.com.br/nvi/index" target="_blank">
-                <img src="img/Bible.png" alt="Bíblia Online">
-            </a>
-        </li>
-    </div>
+    <section class="container">
 
-    <!---- VERSÍCULO ALEATÓRIO VINCULADO --------------------->
-    <div class="corpo">
-        <div id="dailyVersesWrapper"></div>
-        <script async defer src="https://dailyverses.net/get/verse.js?language=arc"></script>
-    </div>
-    <!-------------------------------------------------------->
+        <!-- ÍCONES REDES SOCIAIS -->
         
-    <ul class="link-list">
-        <li>
-            <a href="cultos.html" class="active">
-                Grupo Familiar
-                <span class="texto">Veja aqui onde será o culto do grupo familiar dessa semana. </span>
-            </a>
-        </li>
-        <li>
-            <a href="oracao.html" class="active">
-                Oração da Madrugada
-                <span class="texto">Escala do responsável pela oração da madrugada.</span>
-            </a>
-        </li>
-        <li>
-            <a href="escala-louvor.html" class="active">
-                Escala grupo de louvor
-                <span class="texto">Veja a escala do grupo de louvor desse mês.</span>
-            </a>
-        </li>
-        <li>
-            <a href="porteiros.html" class="active">
-                Escala de porteiros
-                <span class="texto">Veja quem deverá abrir a igreja nos dias de culto.</span>
-            </a>
-        </li>
-        <li>
-            <a href="pregacao.html" class="active">
-                Ministros da palavra
-                <span class="texto">Veja aqui a escala de quem deverá trazer a palavra durante os cultos.</span>
-            </a>
-        </li>
-        <li>
-            <a href="pix.html" class="active">
-                Ofertas e Doações
-                <span class="texto">Quer nos abençoar com uma oferta ou doação, veja aqui nosso PIX.</span>
-            </a>
-        </li>
-        <li>
-            <a href="agenda.html" class="active">
-                Agenda
-                <span class="texto">Veja aqui as agendas da igreja.</span>
-            </a>
-        </li>
-    </ul>
+        <div class="social">
+            <li>
+                <a href="https://www.instagram.com/batista_getsemani_/" target="_blank">
+                    <img src="img/insta.png" alt="Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/Igreja-Batista-Gets%C3%AAmani-468288077006932/" target="_blank">
+                    <img src="img/facebook.png" alt="Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=2FEMS7p4sXI&list=PLZ0QjvqdxU3Fs0lqCj_r0s6VrF5D0MneM" target="_blank">
+                    <img src="img/youtube2.png" alt="YouTube">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.bibliaonline.com.br/nvi/index" target="_blank">
+                    <img src="img/Bible.png" alt="Bíblia Online">
+                </a>
+            </li>
+        </div>
+        <!-------------------------------------------------------------------------------------->
+
+        <!-- LISTA DE AÇÕES -->
+        <div class="corpo">
+            <div id="dailyVersesWrapper"></div>
+            <script async defer src="https://dailyverses.net/get/verse.js?language=arc"></script>
+        </div>
+
+        <ul class="link-list">
+            <li>
+                <a href="escala-louvor.html" class="active">
+                    Escala grupo de louvor
+                    <span class="texto">Veja a escala do grupo de louvor desse mês.</span>
+                </a>
+            </li>
+            <li>
+                <a href="cultos.html" class="active">
+                    Grupo Familiar
+                    <span class="texto">Veja aqui onde será o culto do grupo familiar dessa semana. </span>
+                </a>
+            </li>
+            <li>
+                <a href="oracao.html" class="active">
+                    Oração da Madrugada
+                    <span class="texto">Escala do responsável pela oração da madrugada.</span>
+                </a>
+            </li>
+            <li>
+                <a href="porteiros.html" class="active">
+                    Escala de porteiros
+                    <span class="texto">Veja quem deverá abrir a igreja nos dias de culto.</span>
+                </a>
+            </li>
+            <li>
+                <a href="pregacao.html" class="active">
+                    Ministros da palavra
+                    <span class="texto">Veja aqui a escala de quem deverá trazer a palavra durante os cultos.</span>
+                </a>
+            </li>
+            <li>
+                <a href="pix.html" class="active">
+                    Ofertas e Doações
+                    <span class="texto">Quer nos abençoar com uma oferta ou doação, veja aqui nosso PIX.</span>
+                </a>
+            </li>
+
+            <!--
+            <li>
+                <a href="agenda.html" class="active">
+                    Agenda
+                    <span class="texto">Veja aqui as agendas da igreja.</span>
+                </a>
+            </li>
+            -->
+            
+        </ul>
+        
+    </section>
+
 
     <footer>
         <p class="texto">©All Rights Reserved | Design by JP-Soluções</p>
